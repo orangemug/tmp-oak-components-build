@@ -1,0 +1,2 @@
+"use strict";var e=require("styled-components"),n=require("../OakFlex/OakFlex.js");function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}const a=t(e).default(n.OakFlex)``;a.defaultProps={$maxWidth:["all-spacing-21","all-spacing-24"],$ph:["inner-padding-none","inner-padding-s"],$flexDirection:"column",$flexGrow:1,$width:"100%",$mh:"auto"},exports.OakMaxWidth=a;
+//# sourceMappingURL=OakMaxWidth.js.map

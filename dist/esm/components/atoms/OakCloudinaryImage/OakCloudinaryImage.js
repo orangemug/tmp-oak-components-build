@@ -1,0 +1,2 @@
+import o,{createContext as r,useContext as i}from"react";import{CldImage as t}from"next-cloudinary";import{getCloudinaryIdFromUrl as e}from"./cloudinary.js";import{OakImage as m}from"../OakImage/OakImage.js";const a=r(void 0),n=a.Provider,d=({cloudinaryId:r,unoptimized:n=r.endsWith(".svg"),...d})=>{const s=i(a),c=e(r,s);return o.createElement(m,{as:t,src:c,imageProps:{config:s,flags:n?void 0:["keep_attribution"]},unoptimized:n,...d})};export{n as OakCloudinaryConfigProvider,d as OakCloudinaryImage};
+//# sourceMappingURL=OakCloudinaryImage.js.map

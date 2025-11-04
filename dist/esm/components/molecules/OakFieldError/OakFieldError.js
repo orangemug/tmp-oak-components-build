@@ -1,0 +1,2 @@
+import e from"react";import{OakFlex as t}from"../../atoms/OakFlex/OakFlex.js";import{OakSpan as r}from"../../atoms/OakSpan/OakSpan.js";import{OakIcon as o}from"../../atoms/OakIcon/OakIcon.js";const a=a=>{const{children:n}=a;return n?e.createElement(t,{$alignItems:"center",$flexDirection:"row"},e.createElement(t,{$alignSelf:"flex-start",$mr:"space-between-s"},e.createElement(o,{iconName:"content-guidance",$colorFilter:"red"})),e.createElement(r,{$color:"red"},n)):null};export{a as OakFieldError};
+//# sourceMappingURL=OakFieldError.js.map

@@ -1,0 +1,2 @@
+import{DndContext as e}from"@dnd-kit/core";import t,{createContext as o,useContext as r,useEffect as n}from"react";const c=o(e),m=e=>{const o=r(c);return n((()=>{const e=document.documentElement.style.scrollBehavior;return document.documentElement.style.scrollBehavior="auto",()=>{document.documentElement.style.scrollBehavior=e}})),t.createElement(o,{...e})};export{m as InternalDndContext,c as injectDndContext};
+//# sourceMappingURL=InternalDndContext.js.map

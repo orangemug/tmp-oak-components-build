@@ -1,0 +1,2 @@
+"use strict";var e=require("react"),r=require("../InternalLink/InternalLink.js");function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var a=t(e);const o=e.forwardRef(((e,t)=>a.default.createElement(r.InternalLink,{color:"text-primary",hoverColor:"text-primary",activeColor:"text-primary",disabledColor:"text-disabled",visitedColor:"text-subdued",...e,ref:t})));exports.OakSecondaryLink=o;
+//# sourceMappingURL=OakSecondaryLink.js.map

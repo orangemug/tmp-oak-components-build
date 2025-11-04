@@ -1,0 +1,5 @@
+import r from"react";import o from"styled-components";import{oakBoxCss as t}from"../OakBox/OakBox.js";import{Underline as e}from"../../../svgs/underline.js";import{HorizontalRule as n}from"../../../svgs/horizontal-rule.js";import{HeaderUnderline as s}from"../../../svgs/header-underline.js";import{Underline3 as m}from"../../../svgs/underline-3.js";import{ButtonBorderTop as i}from"../../../svgs/button-border-top.js";import{ButtonBorderBottom as d}from"../../../svgs/button-border-bottom.js";import{ButtonBorderLeft as b}from"../../../svgs/button-border-left.js";import{ButtonBorderRight as l}from"../../../svgs/button-border-right.js";import{IconBackground as u}from"../../../svgs/icon-background.js";const a={"header-underline":s,underline:e,"horizontal-rule":n,"underline-3":m,"button-border-top":i,"button-border-bottom":d,"button-border-left":b,"button-border-right":l,"icon-background":u},g=o.svg`
+  ${t};
+  transition: all 0.3s ease;
+`,p=o=>r.createElement(g,{"aria-hidden":!0,xmlns:"http://www.w3.org/2000/svg",width:"100%",height:"100%",...o},(o=>{const t=a[o];return r.createElement(t,null)})(o.name));export{p as OakSvg};
+//# sourceMappingURL=OakSvg.js.map

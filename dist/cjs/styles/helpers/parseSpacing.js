@@ -1,0 +1,2 @@
+"use strict";var e=require("./pxToRem.js"),n=require("../theme/spacing.js");exports.parseSpacing=function(a){if(null!=a){if(a in n.oakAllSpacingTokens)return`${e.default(n.oakAllSpacingTokens[a])}rem`;if(a in n.oakInnerPaddingTokens){const o=n.oakInnerPaddingTokens[a];return`${e.default(n.oakAllSpacingTokens[o])}rem`}if(a in n.oakSpaceBetweenTokens){const o=n.oakSpaceBetweenTokens[a];return`${e.default(n.oakAllSpacingTokens[o])}rem`}return a}};
+//# sourceMappingURL=parseSpacing.js.map

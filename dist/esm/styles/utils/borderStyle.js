@@ -1,0 +1,55 @@
+import{css as r}from"styled-components";import{parseColor as o}from"../helpers/parseColor.js";import{parseBorder as $}from"../helpers/parseBorder.js";import{parseBorderRadius as b}from"../helpers/parseBorderRadius.js";import{responsiveStyle as e}from"./responsiveStyle.js";const t=r`
+  ${r`
+  ${e("border",(r=>r.$ba),$)}
+`}
+  ${r`
+  ${e("border-top",(r=>r.$bt),$)}
+`}
+  ${r`
+  ${e("border-right",(r=>r.$br),$)}
+`}
+  ${r`
+  ${e("border-bottom",(r=>r.$bb),$)}
+`}
+  ${r`
+  ${e("border-left",(r=>r.$bl),$)}
+`}
+  ${r`
+  ${e("border-left",(r=>r.$bh),$)}
+  ${e("border-right",(r=>r.$bh),$)}
+`}
+  ${r`
+  ${e("border-top",(r=>r.$bv),$)}
+  ${e("border-bottom",(r=>r.$bv),$)}
+`}
+  ${r`
+  ${e("border-color",(r=>r.$borderColor),o)}
+`}
+  ${r`
+  ${e("border-radius",(r=>r.$borderRadius),b)}
+`}
+  ${r`
+  ${e("border-top-left-radius",(r=>r.$btlr),b)}
+`}
+  ${r`
+  ${e("border-top-right-radius",(r=>r.$btrr),b)}
+`}
+  ${r`
+  ${e("border-bottom-left-radius",(r=>r.$bblr),b)}
+`}
+  ${r`
+  ${e("border-bottom-right-radius",(r=>r.$bbrr),b)}
+`}
+  ${r`
+  ${e("border-top-left-radius",(r=>r.$btr),b)}
+  ${e("border-top-right-radius",(r=>r.$btr),b)}
+`}
+  ${r`
+  ${e("border-bottom-left-radius",(r=>r.$bbr),b)}
+  ${e("border-bottom-right-radius",(r=>r.$bbr),b)}
+`}
+  ${r`
+  ${e("border-style",(r=>r.$borderStyle))};
+`}
+`;export{t as borderStyle};
+//# sourceMappingURL=borderStyle.js.map

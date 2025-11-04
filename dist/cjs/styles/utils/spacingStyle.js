@@ -1,0 +1,53 @@
+"use strict";var s=require("styled-components"),e=require("./responsiveStyle.js"),p=require("../helpers/parseSpacing.js");const i=s.css`
+  ${e.responsiveStyle("padding",(s=>s.$pa),p.parseSpacing)}
+`,r=s.css`
+  ${e.responsiveStyle("padding-left",(s=>s.$ph),p.parseSpacing)}
+  ${e.responsiveStyle("padding-right",(s=>s.$ph),p.parseSpacing)}
+`,a=s.css`
+  ${e.responsiveStyle("padding-top",(s=>s.$pv),p.parseSpacing)}
+  ${e.responsiveStyle("padding-bottom",(s=>s.$pv),p.parseSpacing)}
+`,n=s.css`
+  ${e.responsiveStyle("padding-left",(s=>s.$pl),p.parseSpacing)}
+`,t=s.css`
+  ${e.responsiveStyle("padding-right",(s=>s.$pr),p.parseSpacing)}
+`,$=s.css`
+  ${e.responsiveStyle("padding-top",(s=>s.$pt),p.parseSpacing)}
+`,g=s.css`
+  ${e.responsiveStyle("padding-bottom",(s=>s.$pb),p.parseSpacing)}
+`,S=s.css`
+  ${e.responsiveStyle("margin",(s=>s.$ma),p.parseSpacing)}
+`,c=s.css`
+  ${e.responsiveStyle("margin-left",(s=>s.$mh),p.parseSpacing)}
+  ${e.responsiveStyle("margin-right",(s=>s.$mh),p.parseSpacing)}
+`,o=s.css`
+  ${e.responsiveStyle("margin-top",(s=>s.$mv),p.parseSpacing)}
+  ${e.responsiveStyle("margin-bottom",(s=>s.$mv),p.parseSpacing)}
+`,l=s.css`
+  ${e.responsiveStyle("margin-left",(s=>s.$ml),p.parseSpacing)}
+`,m=s.css`
+  ${e.responsiveStyle("margin-right",(s=>s.$mr),p.parseSpacing)}
+`,v=s.css`
+  ${e.responsiveStyle("margin-top",(s=>s.$mt),p.parseSpacing)}
+`,y=s.css`
+  ${e.responsiveStyle("margin-bottom",(s=>s.$mb),p.parseSpacing)}
+`,d=s.css`
+  ${S}
+  ${c}
+  ${o}
+  ${l}
+  ${m}
+  ${v}
+  ${y}
+`,h=s.css`
+  ${i}
+  ${r}
+  ${a}
+  ${n}
+  ${t}
+  ${$}
+  ${g}
+`,b=s.css`
+  ${h}
+  ${d}
+`;exports.marginStyle=d,exports.paddingStyle=h,exports.spacingStyle=b;
+//# sourceMappingURL=spacingStyle.js.map

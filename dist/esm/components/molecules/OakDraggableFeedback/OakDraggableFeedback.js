@@ -1,0 +1,2 @@
+import r from"react";import{OakDraggable as c}from"../OakDraggable/OakDraggable.js";const o=({feedback:o,...e})=>r.createElement(c,{...e,iconName:"correct"===o?"tick":"cross",iconColor:"correct"===o?"icon-success":"icon-error",iconAlt:"correct"===o?"correct":"incorrect",$ba:"border-solid-xl",$borderColor:"correct"===o?"border-success":"border-error",$background:"correct"===o?"bg-correct":"bg-incorrect",isReadOnly:!0});export{o as OakDraggableFeedback};
+//# sourceMappingURL=OakDraggableFeedback.js.map

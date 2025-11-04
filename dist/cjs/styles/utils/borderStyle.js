@@ -1,0 +1,55 @@
+"use strict";var r=require("styled-components"),e=require("../helpers/parseColor.js"),s=require("../helpers/parseBorder.js"),o=require("../helpers/parseBorderRadius.js"),d=require("./responsiveStyle.js");const t=r.css`
+  ${d.responsiveStyle("border",(r=>r.$ba),s.parseBorder)}
+`,$=r.css`
+  ${d.responsiveStyle("border-top",(r=>r.$bt),s.parseBorder)}
+`,p=r.css`
+  ${d.responsiveStyle("border-right",(r=>r.$br),s.parseBorder)}
+`,i=r.css`
+  ${d.responsiveStyle("border-bottom",(r=>r.$bb),s.parseBorder)}
+`,b=r.css`
+  ${d.responsiveStyle("border-left",(r=>r.$bl),s.parseBorder)}
+`,a=r.css`
+  ${d.responsiveStyle("border-left",(r=>r.$bh),s.parseBorder)}
+  ${d.responsiveStyle("border-right",(r=>r.$bh),s.parseBorder)}
+`,l=r.css`
+  ${d.responsiveStyle("border-top",(r=>r.$bv),s.parseBorder)}
+  ${d.responsiveStyle("border-bottom",(r=>r.$bv),s.parseBorder)}
+`,u=r.css`
+  ${d.responsiveStyle("border-color",(r=>r.$borderColor),e.parseColor)}
+`,y=r.css`
+  ${d.responsiveStyle("border-radius",(r=>r.$borderRadius),o.parseBorderRadius)}
+`,n=r.css`
+  ${d.responsiveStyle("border-top-left-radius",(r=>r.$btlr),o.parseBorderRadius)}
+`,v=r.css`
+  ${d.responsiveStyle("border-top-right-radius",(r=>r.$btrr),o.parseBorderRadius)}
+`,S=r.css`
+  ${d.responsiveStyle("border-bottom-left-radius",(r=>r.$bblr),o.parseBorderRadius)}
+`,c=r.css`
+  ${d.responsiveStyle("border-bottom-right-radius",(r=>r.$bbrr),o.parseBorderRadius)}
+`,B=r.css`
+  ${d.responsiveStyle("border-top-left-radius",(r=>r.$btr),o.parseBorderRadius)}
+  ${d.responsiveStyle("border-top-right-radius",(r=>r.$btr),o.parseBorderRadius)}
+`,h=r.css`
+  ${d.responsiveStyle("border-bottom-left-radius",(r=>r.$bbr),o.parseBorderRadius)}
+  ${d.responsiveStyle("border-bottom-right-radius",(r=>r.$bbr),o.parseBorderRadius)}
+`,R=r.css`
+  ${d.responsiveStyle("border-style",(r=>r.$borderStyle))};
+`,m=r.css`
+  ${t}
+  ${$}
+  ${p}
+  ${i}
+  ${b}
+  ${a}
+  ${l}
+  ${u}
+  ${y}
+  ${n}
+  ${v}
+  ${S}
+  ${c}
+  ${B}
+  ${h}
+  ${R}
+`;exports.borderStyle=m;
+//# sourceMappingURL=borderStyle.js.map

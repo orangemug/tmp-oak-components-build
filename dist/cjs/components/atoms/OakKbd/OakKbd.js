@@ -1,0 +1,2 @@
+"use strict";var r=require("react"),e=require("../OakSpan/OakSpan.js");function a(r){return r&&"object"==typeof r&&"default"in r?r:{default:r}}var d=a(r);exports.OakKbd=({children:r})=>d.default.createElement(e.OakSpan,{$font:"body-3-bold",as:"kbd",$borderColor:"border-decorative3-stronger",$background:"bg-primary",$borderRadius:"border-radius-m",$ba:"border-solid-m",$ph:"inner-padding-xs",$pv:"inner-padding-ssx",$whiteSpace:"nowrap"},r);
+//# sourceMappingURL=OakKbd.js.map

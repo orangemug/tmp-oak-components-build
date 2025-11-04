@@ -1,0 +1,2 @@
+import e,{useState as r,useCallback as t,useLayoutEffect as n}from"react";const o=()=>{const[o,c]=r(!1),[l,s]=r(null),i=t((({children:r})=>e.createElement(e.Fragment,null,e.createElement("div",{ref:s}),r)),[]);return n((()=>{if(!l)return;const e=new IntersectionObserver((e=>{c(!e.some((e=>e.isIntersecting)))}),{root:l.parentElement});return e.observe(l),()=>{e.disconnect()}}),[l]),{isScrolled:o,ObserveScroll:i}};export{o as default};
+//# sourceMappingURL=useIsScrolled.js.map

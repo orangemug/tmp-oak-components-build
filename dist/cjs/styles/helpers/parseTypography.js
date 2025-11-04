@@ -1,0 +1,2 @@
+"use strict";var e=require("../theme/typography.js"),r=require("./pxToRem.js");exports.parseFontSize=t=>{if(!t)return;const o=e.oakFontTokens[t]?.[0];if(!o)return;const n=e.oakFontSizeTokens[o];return`${r.default(n)}rem`},exports.parseFontWeight=r=>{if(r)return e.oakFontTokens[r]?.[2]},exports.parseLetterSpacing=r=>{if(r)return e.oakFontTokens[r]?.[3]},exports.parseLineHeight=t=>{if(!t)return;const o=e.oakFontTokens[t]?.[1];return o?`${r.default(o)}rem`:void 0};
+//# sourceMappingURL=parseTypography.js.map

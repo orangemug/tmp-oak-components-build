@@ -1,0 +1,2 @@
+"use strict";var e=require("react");function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var r=t(e);module.exports=()=>{const[t,n]=e.useState(!1),[l,u]=e.useState(null),s=e.useCallback((({children:e})=>r.default.createElement(r.default.Fragment,null,r.default.createElement("div",{ref:u}),e)),[]);return e.useLayoutEffect((()=>{if(!l)return;const e=new IntersectionObserver((e=>{n(!e.some((e=>e.isIntersecting)))}),{root:l.parentElement});return e.observe(l),()=>{e.disconnect()}}),[l]),{isScrolled:t,ObserveScroll:s}};
+//# sourceMappingURL=useIsScrolled.js.map

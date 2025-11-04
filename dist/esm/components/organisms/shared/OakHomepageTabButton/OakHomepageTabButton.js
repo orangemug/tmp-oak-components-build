@@ -1,0 +1,27 @@
+import e from"react";import a from"styled-components";import{InternalButton as o}from"../../../atoms/InternalButton/InternalButton.js";import"../../../atoms/OakAnchorTarget/OakAnchorTarget.js";import"../../../atoms/OakAspectRatio/OakAspectRatio.js";import{OakBox as t}from"../../../atoms/OakBox/OakBox.js";import"../../../atoms/OakCloudinaryImage/OakCloudinaryImage.js";import{OakFlex as r}from"../../../atoms/OakFlex/OakFlex.js";import"../../../atoms/OakForm/OakForm.js";import"../../../atoms/OakGlobalStyle/OakGlobalStyle.js";import"../../../atoms/OakGrid/OakGrid.js";import"../../../atoms/OakGridArea/OakGridArea.js";import"../../../atoms/OakHeading/OakHeading.js";import{OakIcon as n}from"../../../atoms/OakIcon/OakIcon.js";import"../../../atoms/OakImage/OakImage.js";import{OakSpan as l}from"../../../atoms/OakSpan/OakSpan.js";import"../../../atoms/OakLI/OakLI.js";import"../../../atoms/OakLabel/OakLabel.js";import"../../../atoms/OakMaxWidth/OakMaxWidth.js";import"../../../atoms/OakOL/OakOL.js";import"../../../atoms/OakFieldset/OakFieldset.js";import"../../../atoms/OakP/OakP.js";import"../../../atoms/OakScreenReader/OakScreenReader.js";import"../../../atoms/OakTypography/OakTypography.js";import"../../../atoms/OakUL/OakUL.js";import"../../../atoms/OakSvg/OakSvg.js";import{parseColor as s}from"../../../../styles/helpers/parseColor.js";import"../../../molecules/OakAccordion/OakAccordion.js";import"../../../molecules/OakBackLink/OakBackLink.js";import"../../../molecules/OakButtonAsRadioGroup/OakButtonAsRadioGroup.js";import"../../../atoms/InternalCardWithBackgroundElement/InternalCardWithBackgroundElement.js";import{InternalStyledSvg as i}from"../../../atoms/InternalStyledSvg/InternalStyledSvg.js";import"../../../atoms/InternalCheckBox/InternalCheckBox.js";import"../../../atoms/InternalCheckBoxLabel/InternalCheckBoxLabel.js";import"../../../atoms/InternalCheckBoxWrapper/InternalCheckBoxWrapper.js";import"../../../molecules/OakCollapsibleContent/OakCollapsibleContent.js";import"../../../molecules/OakDragAndDropInstructions/OakDragAndDropInstructions.js";import"../../../molecules/OakDraggable/OakDraggable.js";import"../../../molecules/OakDroppable/OakDroppable.js";import"../../../molecules/OakHandDrawnFocusUnderline/OakHandDrawnFocusUnderline.js";import"../../../molecules/OakHandDrawnHR/OakHandDrawnHR.js";import"../../../molecules/InternalShadowRoundButton/InternalShadowRoundButton.js";import"../../../molecules/OakLink/OakLink.js";import"../../../molecules/OakLoadingSpinner/OakLoadingSpinner.js";import"../../../molecules/OakModal/OakModal.js";import"../../../molecules/OakModalCenter/OakModalCenter.js";import"../../../molecules/OakOutlineAccordion/OakOutlineAccordion.js";import"../../../molecules/InternalShadowRectButton/InternalShadowRectButton.js";import{OakPromoTag as m}from"../../../molecules/OakPromoTag/OakPromoTag.js";import"../../../molecules/OakRadioButton/OakRadioButton.js";import"../../../molecules/OakRadioGroup/OakRadioGroup.js";import"../../../molecules/OakRadioTile/OakRadioTile.js";import"../../../molecules/OakSecondaryLink/OakSecondaryLink.js";import"../../../molecules/OakFilterDrawer/OakFilterDrawer.js";import"../../../molecules/OakTextInput/OakTextInput.js";import"react-dom";import"../../../atoms/InternalTooltip/InternalTooltip.js";import"../../../molecules/OakTimer/OakTimer.js";import"../../../molecules/OakCodeRenderer/OakCodeRenderer.js";import{parseColorFilter as p}from"../../../../styles/helpers/parseColorFilter.js";import{parseDropShadow as c}from"../../../../styles/helpers/parseDropShadow.js";import{Underline as k}from"../../../../svgs/underline.js";const d=a(o)`
+  :hover .buttonText {
+    text-decoration: underline;
+    color: ${s("black")};
+  }
+
+  :focus .focusUnderlineSvg {
+    display: block;
+    filter: ${p("lemon")}
+      drop-shadow(${c("drop-shadow-black")});
+    transform: rotate(-2deg);
+  }
+
+  :focus .activeUnderline {
+    display: none;
+  }
+
+  :focus .focusUnderline {
+    display: block;
+  }
+  .activeUnderlineSvg,
+  .focusUnderlineSvg {
+    position: absolute;
+    bottom: 0;
+  }
+`,O=a=>{const{element:o="button",iconName:s,isActive:p,title:c,showNewIcon:O,...u}=a,j=p?"black":"grey60";return e.createElement(d,{element:o,"aria-current":p?"page":null,title:c,disabled:p,...u},e.createElement(r,{$height:"100%",$flexDirection:"column",$alignItems:"center",$justifyContent:"space-between",$gap:"space-between-s"},e.createElement(n,{$width:["all-spacing-9","all-spacing-14","all-spacing-14"],$height:["all-spacing-9","all-spacing-14","all-spacing-14"],iconName:s,$colorFilter:j,alt:""}),e.createElement(r,{$alignItems:"center",$justifyContent:"center",$gap:"space-between-sssx",$position:"relative",$pb:["inner-padding-s","inner-padding-xl"]},e.createElement(l,{className:"buttonText",$font:["body-3-bold","heading-7"],$color:j,$textAlign:"center"},c),O&&e.createElement(m,{display:["none","flex"],width:"all-spacing-9"}),p&&e.createElement(t,{className:"activeUnderline",$position:"absolute",$bottom:"all-spacing-0",$width:"100%"},e.createElement(i,{className:"activeUnderlineSvg",xmlns:"http://www.w3.org/2000/svg",fill:"none",height:"6",width:"100%"},e.createElement(k,null))),e.createElement(t,{className:"focusUnderline",$display:"none",$position:"absolute",$bottom:"all-spacing-0",$width:"100%"},e.createElement(i,{className:"focusUnderlineSvg",xmlns:"http://www.w3.org/2000/svg",height:"8",width:"100%",preserveAspectRatio:"none"},e.createElement(k,null))))))};export{O as OakHomepageTabButton};
+//# sourceMappingURL=OakHomepageTabButton.js.map

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("react");function t(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var r=t(e);const n=e.createContext(null),o=({children:t,isInitialOpen:o})=>{const[i,a]=e.useState(o),c={isOpen:i,setOpen:a,isInitialOpen:!1};return r.default.createElement(n.Provider,{value:c},t)};exports.InternalAccordionProvider=o,exports.accordionContext=n,exports.default=o;
+//# sourceMappingURL=InternalAccordionProvider.js.map

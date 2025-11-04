@@ -1,0 +1,2 @@
+"use strict";var e=require("@dnd-kit/core"),t=require("react");function n(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=n(t);const r=t.createContext(e.DndContext);exports.InternalDndContext=e=>{const n=t.useContext(r);return t.useEffect((()=>{const e=document.documentElement.style.scrollBehavior;return document.documentElement.style.scrollBehavior="auto",()=>{document.documentElement.style.scrollBehavior=e}})),o.default.createElement(n,{...e})},exports.injectDndContext=r;
+//# sourceMappingURL=InternalDndContext.js.map

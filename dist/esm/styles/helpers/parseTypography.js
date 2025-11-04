@@ -1,0 +1,2 @@
+import{oakFontTokens as r,oakFontSizeTokens as t}from"../theme/typography.js";import e from"./pxToRem.js";const o=t=>{if(t)return r[t]?.[2]},n=o=>{if(!o)return;const n=r[o]?.[0];if(!n)return;const i=t[n];return`${e(i)}rem`},i=t=>{if(!t)return;const o=r[t]?.[1];return o?`${e(o)}rem`:void 0},m=t=>{if(t)return r[t]?.[3]};export{n as parseFontSize,o as parseFontWeight,m as parseLetterSpacing,i as parseLineHeight};
+//# sourceMappingURL=parseTypography.js.map

@@ -1,0 +1,53 @@
+import{css as $}from"styled-components";import{responsiveStyle as p}from"./responsiveStyle.js";import{parseSpacing as t}from"../helpers/parseSpacing.js";const m=$`
+  ${p("padding",($=>$.$pa),t)}
+`,i=$`
+  ${p("padding-left",($=>$.$ph),t)}
+  ${p("padding-right",($=>$.$ph),t)}
+`,r=$`
+  ${p("padding-top",($=>$.$pv),t)}
+  ${p("padding-bottom",($=>$.$pv),t)}
+`,g=$`
+  ${p("padding-left",($=>$.$pl),t)}
+`,n=$`
+  ${p("padding-right",($=>$.$pr),t)}
+`,o=$`
+  ${p("padding-top",($=>$.$pt),t)}
+`,a=$`
+  ${p("padding-bottom",($=>$.$pb),t)}
+`,d=$`
+  ${$`
+  ${p("margin",($=>$.$ma),t)}
+`}
+  ${$`
+  ${p("margin-left",($=>$.$mh),t)}
+  ${p("margin-right",($=>$.$mh),t)}
+`}
+  ${$`
+  ${p("margin-top",($=>$.$mv),t)}
+  ${p("margin-bottom",($=>$.$mv),t)}
+`}
+  ${$`
+  ${p("margin-left",($=>$.$ml),t)}
+`}
+  ${$`
+  ${p("margin-right",($=>$.$mr),t)}
+`}
+  ${$`
+  ${p("margin-top",($=>$.$mt),t)}
+`}
+  ${$`
+  ${p("margin-bottom",($=>$.$mb),t)}
+`}
+`,e=$`
+  ${m}
+  ${i}
+  ${r}
+  ${g}
+  ${n}
+  ${o}
+  ${a}
+`,h=$`
+  ${e}
+  ${d}
+`;export{d as marginStyle,e as paddingStyle,h as spacingStyle};
+//# sourceMappingURL=spacingStyle.js.map
