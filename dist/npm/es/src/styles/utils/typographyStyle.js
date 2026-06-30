@@ -1,0 +1,9 @@
+import { __makeTemplateObject } from '../../../node_modules/.pnpm/@rollup_plugin-typescript@12.3.0_rollup@4.60.1_tslib@2.8.1_typescript@5.9.3/node_modules/tslib/tslib.es6.js';
+import { css } from 'styled-components';
+import { parseFontWeight, parseFontSize, parseLineHeight, parseLetterSpacing } from '../helpers/parseTypography.js';
+import { responsiveStyle } from './responsiveStyle.js';
+
+var typographyStyle = css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  font-family:\n    --var(google-font), Lexend, sans-serif; //  FIXME: this should be a css variable ?\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  font-family:\n    --var(google-font), Lexend, sans-serif; //  FIXME: this should be a css variable ?\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), responsiveStyle("font-weight", function (props) { return props.$font; }, parseFontWeight), responsiveStyle("font-size", function (props) { return props.$font; }, parseFontSize), responsiveStyle("line-height", function (props) { return props.$font; }, parseLineHeight), responsiveStyle("letter-spacing", function (props) { return props.$font; }, parseLetterSpacing), responsiveStyle("text-align", function (props) { return props.$textAlign; }), responsiveStyle("text-decoration", function (props) { return props.$textDecoration; }), responsiveStyle("white-space", function (props) { return props.$whiteSpace; }), responsiveStyle("word-wrap", function (props) { return props.$wordWrap; }), responsiveStyle("text-overflow", function (props) { return props.$textOverflow; }), responsiveStyle("overflow", function (props) { return props.$overflow; }), responsiveStyle("text-wrap", function (props) { return props.$textWrap; }));
+var templateObject_1;
+
+export { typographyStyle };

@@ -1,0 +1,9 @@
+import { __makeTemplateObject } from '../../../node_modules/.pnpm/@rollup_plugin-typescript@12.3.0_rollup@4.60.1_tslib@2.8.1_typescript@5.9.3/node_modules/tslib/tslib.es6.js';
+import { css } from 'styled-components';
+import { responsiveStyle } from './responsiveStyle.js';
+import { parseSpacing } from '../helpers/parseSpacing.js';
+
+var positionStyle = css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  ", "\n  ", " \n  ", " \n  ", " \n  ", " \n  ", " \n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  ", "\n  ", " \n  ", " \n  ", " \n  ", " \n  ", " \n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), responsiveStyle("position", function (props) { return props.$position; }), responsiveStyle("top", function (props) { return props.$top; }, parseSpacing), responsiveStyle("right", function (props) { return props.$right; }, parseSpacing), responsiveStyle("bottom", function (props) { return props.$bottom; }, parseSpacing), responsiveStyle("left", function (props) { return props.$left; }, parseSpacing), responsiveStyle("inset", function (props) { return props.$inset; }, parseSpacing), responsiveStyle("overflow", function (props) { return props.$overflow; }), responsiveStyle("overflow-x", function (props) { return props.$overflowX; }), responsiveStyle("overflow-y", function (props) { return props.$overflowY; }), responsiveStyle("object-fit", function (props) { return props.$objectFit; }), responsiveStyle("object-position", function (props) { return props.$objectPosition; }), responsiveStyle("pointer-events", function (props) { return props.$pointerEvents; }), responsiveStyle("visibility", function (props) { return props.$visibility; }), responsiveStyle("vertical-align", function (props) { return props.$verticalAlign; }));
+var templateObject_1;
+
+export { positionStyle };

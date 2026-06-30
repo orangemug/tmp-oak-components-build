@@ -1,0 +1,9 @@
+import { __makeTemplateObject } from '../../../node_modules/.pnpm/@rollup_plugin-typescript@12.3.0_rollup@4.60.1_tslib@2.8.1_typescript@5.9.3/node_modules/tslib/tslib.es6.js';
+import { css } from 'styled-components';
+import { responsiveStyle } from './responsiveStyle.js';
+import { parseSpacing } from '../helpers/parseSpacing.js';
+
+var flexStyle = css(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"], ["\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"])), responsiveStyle("display", function (props) { var _a; return (_a = props.$display) !== null && _a !== void 0 ? _a : "flex"; }), responsiveStyle("flex-direction", function (props) { return props.$flexDirection; }), responsiveStyle("flex-wrap", function (props) { return props.$flexWrap; }), responsiveStyle("align-items", function (props) { return props.$alignItems; }), responsiveStyle("align-content", function (props) { return props.$alignContent; }), responsiveStyle("justify-content", function (props) { return props.$justifyContent; }), responsiveStyle("align-self", function (props) { return props.$alignSelf; }), responsiveStyle("order", function (props) { return props.$order; }), responsiveStyle("flex-grow", function (props) { return props.$flexGrow; }), responsiveStyle("flex-shrink", function (props) { return props.$flexShrink; }), responsiveStyle("flex-basis", function (props) { return props.$flexBasis; }, parseSpacing), responsiveStyle("gap", function (props) { return props.$gap; }, parseSpacing), responsiveStyle("column-gap", function (props) { return props.$columnGap; }, parseSpacing), responsiveStyle("row-gap", function (props) { return props.$rowGap; }, parseSpacing));
+var templateObject_1;
+
+export { flexStyle };
